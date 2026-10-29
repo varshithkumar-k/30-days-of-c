@@ -1,7 +1,5 @@
 name: Daily C lesson
 on:
-  schedule:
-    - cron: '0 14 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -23,8 +21,8 @@ jobs:
           root = pathlib.Path('.')
           today = datetime.datetime.now(ZoneInfo('Asia/Kolkata')).date()
           start = datetime.date(2026, 10, 29)
-          due = min(30, max(0, (today - start).days + 1))
-          # Publish at most one missing lesson per run; retries never duplicate a day.
+          due = len(items)
+          # Publish every remaining lesson; retries skip existing files.
           for index, item in enumerate(items[:due], 1):
               folder = root / 'programs' / f"day-{index:02d}-{item['slug']}"
               if (folder / 'main.c').exists():
@@ -36,12 +34,11 @@ jobs:
               actual = subprocess.check_output(['/tmp/daily-c'], text=True)
               assert actual == item['output'], (index, actual)
               (folder / 'README.md').write_text(f"# Day {index}: {item['slug'].replace('-', ' ').title()}\n\n{item['lesson']}\n\nThis example uses fixed sample data. Change the values to practice.\n\n## Run\n\n```sh\ngcc -std=c17 -Wall -Wextra -pedantic main.c -o lesson\n./lesson\n```\n\n## Expected output\n\n```text\n{item['output']}```\n\n## Practice\n\nTry a different sample, predict the output, then compile again.\n")
-              break
           published = sorted((root / 'programs').glob('day-*/main.c'))
-          readme = "# 30 Days of C\n\n30 beginner-friendly, original AI-assisted C17 examples. One lesson is published per day from **29 October to 27 November 2026**.\n\nThe daily workflow targets **7:30 PM India time** (14:00 UTC); GitHub may delay scheduled runs. The first lesson is published during setup. All 30 examples were compiled with strict warnings and their sample outputs checked before scheduling. Each published lesson is tested again.\n\n## Originality\n\nCode and explanations were newly generated for this project, without copying third-party repositories, tutorials or paid course material. These are common programming exercises; similar implementations can exist. No exhaustive copyright or similarity clearance is claimed. AI assistance is disclosed.\n\n## Learning path\n\nBasics, conditions, loops, number algorithms, arrays, sorting, strings, pointers, structs, dynamic allocation, file handling, bit flags, stacks and small study projects.\n\n## Published lessons\n\n"
+          readme = "# 30 Days of C\n\n30 beginner-friendly, original AI-assisted C17 examples. All 30 lessons were published on **29 October 2026**, at the owner's request.\n\nThe daily schedule has been removed. All 30 examples were compiled with strict warnings and their sample outputs checked before scheduling. Each published lesson is tested again.\n\n## Originality\n\nCode and explanations were newly generated for this project, without copying third-party repositories, tutorials or paid course material. These are common programming exercises; similar implementations can exist. No exhaustive copyright or similarity clearance is claimed. AI assistance is disclosed.\n\n## Learning path\n\nBasics, conditions, loops, number algorithms, arrays, sorting, strings, pointers, structs, dynamic allocation, file handling, bit flags, stacks and small study projects.\n\n## Published lessons\n\n"
           for source in published:
               readme += f"- [{source.parent.name}]({source.parent.as_posix()}/README.md)\n"
-          readme += "\n## Scheduling\n\nThe workflow stores the prepared lesson queue and publishes at most one missing eligible lesson per run. Re-running on the same day is idempotent. After all 30 lessons are published, no new lesson is created. A manual workflow run can recover a missed day.\n"
+          readme += "\n## Scheduling\n\nAll 30 lessons are available now. The manual workflow skips existing lessons and verifies newly published code before committing. No daily publication remains scheduled.\n"
           (root / 'README.md').write_text(readme)
           subprocess.run(['git', 'config', 'user.name', 'github-actions[bot]'], check=True)
           subprocess.run(['git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'], check=True)
@@ -49,3 +46,4 @@ jobs:
           if subprocess.run(['git', 'diff', '--cached', '--quiet']).returncode != 0:
               subprocess.run(['git', 'commit', '-m', f'Publish C lesson {len(published):02d} with verified output'], check=True)
               subprocess.run(['git', 'push'], check=True)
+
