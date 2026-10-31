@@ -10,8 +10,9 @@ Code and explanations were generated for this project without copying third-part
 
 ## Published lessons
 
+- [day-01-hello-c](programs/day-01-hello-c/README.md)
 
-Progress: **0/30**.
+Progress: **1/30**.
 
 ## Scheduling
 
