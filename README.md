@@ -11,8 +11,9 @@ Code and explanations were generated for this project without copying third-part
 ## Published lessons
 
 - [day-01-hello-c](programs/day-01-hello-c/README.md)
+- [day-02-study-budget](programs/day-02-study-budget/README.md)
 
-Progress: **1/30**.
+Progress: **2/30**.
 
 ## Scheduling
 
