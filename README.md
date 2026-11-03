@@ -13,8 +13,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-01-hello-c](programs/day-01-hello-c/README.md)
 - [day-02-study-budget](programs/day-02-study-budget/README.md)
 - [day-03-temperature](programs/day-03-temperature/README.md)
+- [day-04-even-or-odd](programs/day-04-even-or-odd/README.md)
 
-Progress: **3/30**.
+Progress: **4/30**.
 
 ## Scheduling
 
