@@ -14,8 +14,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-02-study-budget](programs/day-02-study-budget/README.md)
 - [day-03-temperature](programs/day-03-temperature/README.md)
 - [day-04-even-or-odd](programs/day-04-even-or-odd/README.md)
+- [day-05-largest-of-three](programs/day-05-largest-of-three/README.md)
 
-Progress: **4/30**.
+Progress: **5/30**.
 
 ## Scheduling
 
