@@ -15,8 +15,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-03-temperature](programs/day-03-temperature/README.md)
 - [day-04-even-or-odd](programs/day-04-even-or-odd/README.md)
 - [day-05-largest-of-three](programs/day-05-largest-of-three/README.md)
+- [day-06-leap-year](programs/day-06-leap-year/README.md)
 
-Progress: **5/30**.
+Progress: **6/30**.
 
 ## Scheduling
 
