@@ -16,8 +16,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-04-even-or-odd](programs/day-04-even-or-odd/README.md)
 - [day-05-largest-of-three](programs/day-05-largest-of-three/README.md)
 - [day-06-leap-year](programs/day-06-leap-year/README.md)
+- [day-07-multiplication-table](programs/day-07-multiplication-table/README.md)
 
-Progress: **6/30**.
+Progress: **7/30**.
 
 ## Scheduling
 
