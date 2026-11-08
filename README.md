@@ -18,8 +18,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-06-leap-year](programs/day-06-leap-year/README.md)
 - [day-07-multiplication-table](programs/day-07-multiplication-table/README.md)
 - [day-08-digit-sum](programs/day-08-digit-sum/README.md)
+- [day-09-factorial](programs/day-09-factorial/README.md)
 
-Progress: **8/30**.
+Progress: **9/30**.
 
 ## Scheduling
 
