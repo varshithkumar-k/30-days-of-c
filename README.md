@@ -19,8 +19,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-07-multiplication-table](programs/day-07-multiplication-table/README.md)
 - [day-08-digit-sum](programs/day-08-digit-sum/README.md)
 - [day-09-factorial](programs/day-09-factorial/README.md)
+- [day-10-prime-check](programs/day-10-prime-check/README.md)
 
-Progress: **9/30**.
+Progress: **10/30**.
 
 ## Scheduling
 
