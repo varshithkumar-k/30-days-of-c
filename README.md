@@ -21,8 +21,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-09-factorial](programs/day-09-factorial/README.md)
 - [day-10-prime-check](programs/day-10-prime-check/README.md)
 - [day-11-gcd](programs/day-11-gcd/README.md)
+- [day-12-fibonacci](programs/day-12-fibonacci/README.md)
 
-Progress: **11/30**.
+Progress: **12/30**.
 
 ## Scheduling
 
