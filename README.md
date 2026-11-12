@@ -22,8 +22,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-10-prime-check](programs/day-10-prime-check/README.md)
 - [day-11-gcd](programs/day-11-gcd/README.md)
 - [day-12-fibonacci](programs/day-12-fibonacci/README.md)
+- [day-13-array-average](programs/day-13-array-average/README.md)
 
-Progress: **12/30**.
+Progress: **13/30**.
 
 ## Scheduling
 
