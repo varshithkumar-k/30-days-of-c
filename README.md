@@ -24,8 +24,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-12-fibonacci](programs/day-12-fibonacci/README.md)
 - [day-13-array-average](programs/day-13-array-average/README.md)
 - [day-14-array-min-max](programs/day-14-array-min-max/README.md)
+- [day-15-linear-search](programs/day-15-linear-search/README.md)
 
-Progress: **14/30**.
+Progress: **15/30**.
 
 ## Scheduling
 
