@@ -25,8 +25,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-13-array-average](programs/day-13-array-average/README.md)
 - [day-14-array-min-max](programs/day-14-array-min-max/README.md)
 - [day-15-linear-search](programs/day-15-linear-search/README.md)
+- [day-16-insertion-sort](programs/day-16-insertion-sort/README.md)
 
-Progress: **15/30**.
+Progress: **16/30**.
 
 ## Scheduling
 
