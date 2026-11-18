@@ -28,8 +28,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-16-insertion-sort](programs/day-16-insertion-sort/README.md)
 - [day-17-binary-search](programs/day-17-binary-search/README.md)
 - [day-18-matrix-transpose](programs/day-18-matrix-transpose/README.md)
+- [day-19-vowel-counter](programs/day-19-vowel-counter/README.md)
 
-Progress: **18/30**.
+Progress: **19/30**.
 
 ## Scheduling
 
