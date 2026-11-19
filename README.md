@@ -29,8 +29,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-17-binary-search](programs/day-17-binary-search/README.md)
 - [day-18-matrix-transpose](programs/day-18-matrix-transpose/README.md)
 - [day-19-vowel-counter](programs/day-19-vowel-counter/README.md)
+- [day-20-reverse-string](programs/day-20-reverse-string/README.md)
 
-Progress: **19/30**.
+Progress: **20/30**.
 
 ## Scheduling
 
