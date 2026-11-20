@@ -30,8 +30,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-18-matrix-transpose](programs/day-18-matrix-transpose/README.md)
 - [day-19-vowel-counter](programs/day-19-vowel-counter/README.md)
 - [day-20-reverse-string](programs/day-20-reverse-string/README.md)
+- [day-21-palindrome](programs/day-21-palindrome/README.md)
 
-Progress: **20/30**.
+Progress: **21/30**.
 
 ## Scheduling
 
