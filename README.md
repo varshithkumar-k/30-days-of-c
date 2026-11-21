@@ -31,8 +31,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-19-vowel-counter](programs/day-19-vowel-counter/README.md)
 - [day-20-reverse-string](programs/day-20-reverse-string/README.md)
 - [day-21-palindrome](programs/day-21-palindrome/README.md)
+- [day-22-word-counter](programs/day-22-word-counter/README.md)
 
-Progress: **21/30**.
+Progress: **22/30**.
 
 ## Scheduling
 
