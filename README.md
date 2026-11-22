@@ -32,8 +32,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-20-reverse-string](programs/day-20-reverse-string/README.md)
 - [day-21-palindrome](programs/day-21-palindrome/README.md)
 - [day-22-word-counter](programs/day-22-word-counter/README.md)
+- [day-23-pointer-swap](programs/day-23-pointer-swap/README.md)
 
-Progress: **22/30**.
+Progress: **23/30**.
 
 ## Scheduling
 
