@@ -34,8 +34,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-22-word-counter](programs/day-22-word-counter/README.md)
 - [day-23-pointer-swap](programs/day-23-pointer-swap/README.md)
 - [day-24-student-struct](programs/day-24-student-struct/README.md)
+- [day-25-dynamic-array](programs/day-25-dynamic-array/README.md)
 
-Progress: **24/30**.
+Progress: **25/30**.
 
 ## Scheduling
 
