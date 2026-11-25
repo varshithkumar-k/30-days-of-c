@@ -35,8 +35,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-23-pointer-swap](programs/day-23-pointer-swap/README.md)
 - [day-24-student-struct](programs/day-24-student-struct/README.md)
 - [day-25-dynamic-array](programs/day-25-dynamic-array/README.md)
+- [day-26-temporary-file](programs/day-26-temporary-file/README.md)
 
-Progress: **25/30**.
+Progress: **26/30**.
 
 ## Scheduling
 
