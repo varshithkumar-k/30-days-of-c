@@ -36,8 +36,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-24-student-struct](programs/day-24-student-struct/README.md)
 - [day-25-dynamic-array](programs/day-25-dynamic-array/README.md)
 - [day-26-temporary-file](programs/day-26-temporary-file/README.md)
+- [day-27-bit-flags](programs/day-27-bit-flags/README.md)
 
-Progress: **26/30**.
+Progress: **27/30**.
 
 ## Scheduling
 
