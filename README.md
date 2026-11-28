@@ -38,8 +38,9 @@ Code and explanations were generated for this project without copying third-part
 - [day-26-temporary-file](programs/day-26-temporary-file/README.md)
 - [day-27-bit-flags](programs/day-27-bit-flags/README.md)
 - [day-28-bounded-stack](programs/day-28-bounded-stack/README.md)
+- [day-29-expense-summary](programs/day-29-expense-summary/README.md)
 
-Progress: **28/30**.
+Progress: **29/30**.
 
 ## Scheduling
 
